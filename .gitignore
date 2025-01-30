@@ -171,3 +171,7 @@ dist
 .dev.vars
 
 .wrangler
+
+# keep wrangler.json secret locally
+
+wrangler.json
