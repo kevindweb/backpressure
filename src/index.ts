@@ -7,7 +7,7 @@ const headers: HeadersInit = { "Content-Type": "application/json" };
 const errResponse: ResponseInit = { status: 500, headers: headers };
 const successResponse: ResponseInit = { status: 200, headers: headers };
 
-function calculateThrottlePercent(
+export function calculateThrottlePercent(
   currentValue: number,
   warningThreshold: number,
   emergencyThreshold: number,
