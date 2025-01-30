@@ -1,0 +1,23 @@
+{
+	"name": "backpressure",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "npx wrangler deploy",
+		"dev": "npx wrangler dev",
+		"start": "npx wrangler dev",
+		"cf-typegen": "npx wrangler types",
+		"lint": "eslint . --ext .ts",
+		"lint:fix": "eslint . --ext .ts --fix",
+		"build": "npx wrangler build"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20241224.0",
+		"@types/node": "20.8.3",
+		"@types/service-worker-mock": "^2.0.1",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"eslint": "^8.56.0",
+		"typescript": "~5.3.3"
+	}
+}
