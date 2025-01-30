@@ -6,6 +6,7 @@
 		"deploy": "npx wrangler deploy",
 		"dev": "npx wrangler dev",
 		"start": "npx wrangler dev",
+		"test": "vitest run",
 		"cf-typegen": "npx wrangler types",
 		"lint": "eslint . --ext .ts",
 		"lint:fix": "eslint . --ext .ts --fix",
@@ -18,6 +19,7 @@
 		"@typescript-eslint/eslint-plugin": "^6.21.0",
 		"@typescript-eslint/parser": "^6.21.0",
 		"eslint": "^8.56.0",
-		"typescript": "~5.3.3"
+		"typescript": "~5.3.3",
+		"vitest": "^3.0.4"
 	}
 }
